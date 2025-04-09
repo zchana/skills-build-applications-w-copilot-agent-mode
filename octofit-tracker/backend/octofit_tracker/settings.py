@@ -74,7 +74,8 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
+# Database configuration uses the djongo engine 
+# and what about this weird requiremnent for having djongo appearing at least twice ...
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
